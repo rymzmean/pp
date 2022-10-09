@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 48px;
+  top: 39px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.menu {
+  padding-left: 200px;
+}
+
+.menu2 {
+  color: #fff;
+  text-decoration: none;
+  font-family: inherit;
+  margin: 3px;
+}
+
+.icon {
+  padding-left: 100px;
+}
+
+.icon2 {
+  color: #fff;
+  text-decoration: none;
+  font-family: inherit;
+  margin: 3px;
+}
+
+#best-seller {
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+.intro {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #222222;
+  text-align: left;
+}
+
+.more2 {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  width: 72px;
+  height: 29px;
+  color: #222222;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bs-img {
+  padding-top: 60px;
+}
+
+.bs-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 210px;
+  padding-top: 20px;
+}
+
+.bs-text h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+
+.bs-text h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-top: 10px;
+}
