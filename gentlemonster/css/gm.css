@@ -39,7 +39,7 @@
 
 #best-seller {
   display: flex;
-  padding-top: 80px;
+  padding-top: 120px;
   justify-content: center;
 }
 
@@ -55,6 +55,7 @@
 }
 
 .more2 {
+  padding-top: 4px;
   position: absolute;
   font-family: "Inter";
   font-style: normal;
@@ -99,4 +100,42 @@
   line-height: 19px;
   color: #222222;
   margin-top: 10px;
+}
+
+#banner {
+  padding-top: 120px;
+}
+
+.banner-section {
+  height: 433px;
+  background-image: url(../img/Rectangle\ 39.svg);
+  background-position: center;
+  text-align: center;
+}
+
+.banner-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.banner-explain {
+  text-decoration: none;
+  padding-top: 10px;
+  display: inline-block;
+  margin-top: 30px;
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.37);
+  border: 1px solid #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 130px;
+  height: 43px;
 }
