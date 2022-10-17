@@ -7,6 +7,7 @@
   top: 39px;
   padding: 0px;
   font-size: 16px;
+  justify-content: center;
 }
 
 .link {
@@ -23,7 +24,7 @@
   color: #fff;
   text-decoration: none;
   font-family: inherit;
-  margin: 3px;
+  margin: 30px;
 }
 
 .icon {
@@ -43,7 +44,7 @@
   justify-content: center;
 }
 
-.intro {
+.intro2 {
   position: absolute;
   font-family: "Inter";
   font-style: normal;
@@ -107,7 +108,8 @@
 }
 
 .banner-section {
-  height: 433px;
+  width: 100%;
+  height: 595px;
   background-image: url(../img/Rectangle\ 39.svg);
   background-position: center;
   text-align: center;
