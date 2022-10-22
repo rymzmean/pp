@@ -1,0 +1,152 @@
+.main-img {
+  background-image: url(../img/main.svg);
+  width: 100%;
+  height: 600px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 48px;
+  top: 39px;
+  gap: 100px;
+}
+
+.link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.lang {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 89.52%;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#best-seller-new-arrivals {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.section-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+}
+
+.section-haeding {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #222222;
+}
+
+.more-btn {
+  box-sizing: border-box;
+  border: 2px solid #222;
+  padding: 6px 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+  text-decoration: none;
+}
+
+.slide-box {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.item-explain {
+  margin: 10px;
+  text-align: center;
+}
+
+.item-explain > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  padding-top: 10px;
+}
+
+.item-explain > h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  padding-top: 5px;
+}
+
+#ess-banner {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.ess-banner-section {
+  background-image: url(../img/Rectangle\ 39.svg);
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.more-click {
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.37);
+  border: 1px solid #ffffff;
+  padding: 13px 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+}
