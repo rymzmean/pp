@@ -418,3 +418,17 @@ justify-content: space-between;
   text-align: center;
   color: #e8e8e8;
 }
+
+/* 태블릿 */
+@media screen and (max-width:904px) {
+    body {
+        background-color: red;
+    }    
+}
+
+/* 모바일 */
+@media screen and (max-width:600px) {
+    body {
+        background-color: blue;
+    }
+}
