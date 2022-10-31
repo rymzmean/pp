@@ -1,16 +1,15 @@
 .main-img {
   background-image: url(../img/main.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 900px;
 }
 
 .header {
   display: flex;
-justify-content: space-between;
-padding: 30px;
-
+  justify-content: space-between;
+  padding: 30px;
 }
 
 .link {
@@ -35,11 +34,10 @@ padding: 30px;
 }
 
 .icon {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-
 
 .lang {
   font-family: "Inter";
@@ -50,7 +48,6 @@ padding: 30px;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-
 }
 
 #best-seller-new-arrivals {
@@ -66,8 +63,8 @@ padding: 30px;
 .section-heading-container {
   display: flex;
   align-items: center;
-width: 1216px;
-justify-content: space-between;
+  width: 1216px;
+  justify-content: space-between;
 }
 
 .section-haeding {
@@ -124,17 +121,17 @@ justify-content: space-between;
 }
 
 #ess-banner {
-    background-image: url(../img/Rectangle\ 39.svg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0 auto;
-    padding: 200px 0;
+  background-image: url(../img/Rectangle\ 39.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  padding: 200px 0;
 }
 
 .ess-banner-section {
-    text-align: center
+  text-align: center;
 }
 
 .banner-title {
@@ -162,27 +159,27 @@ justify-content: space-between;
 }
 
 .sub-banner-section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-top: 100px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  justify-content: center;
 }
 
 .sub-banner-section > a {
-    width: 500px;
-    height: 900px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 44px;
-    color: #ffffff;
-    text-decoration: none;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 500px;
+  height: 900px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-sunglass {
@@ -191,7 +188,6 @@ justify-content: space-between;
 
 .banner-glass {
   background-image: url(../img/Rectangle\ 81.svg);
-
 }
 
 #collabo {
@@ -355,8 +351,8 @@ justify-content: space-between;
   margin-right: 10px;
 }
 
-.style-image-content >img {
-    width: 100%;
+.style-image-content > img {
+  width: 100%;
 }
 
 .footer {
@@ -367,8 +363,8 @@ justify-content: space-between;
   display: flex;
   justify-content: center;
   padding-top: 100px;
-    gap: 94px;
-    padding-bottom: 100px;
+  gap: 94px;
+  padding-bottom: 100px;
 }
 
 .menu-container {
@@ -399,14 +395,14 @@ justify-content: space-between;
 }
 
 .footer-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sns-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .copyright {
@@ -420,15 +416,38 @@ justify-content: space-between;
 }
 
 /* 태블릿 */
-@media screen and (max-width:904px) {
-    body {
-        background-color: red;
-    }    
+@media screen and (max-width: 840px) {
+  .main-img {
+    background-image: url(../img/t-main.png);
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .banner-sunglass {
+    background-image: url(../img/Rectangle\ 80.png);
+  }
+
+  .banner-glass {
+    background-image: url(../img/Rectangle\ 81.png);
+  }
+
+  .sub-banner-section > a {
+    width: 379px;
+    height: 579px;
+  }
+
+  .collabo-title {
+    line-height: 70.52%;
+    letter-spacing: 0.0876em;
+  }
 }
 
 /* 모바일 */
-@media screen and (max-width:600px) {
-    body {
-        background-color: blue;
-    }
+@media screen and (max-width: 600px) {
 }
