@@ -367,6 +367,11 @@
   padding-bottom: 100px;
 }
 
+.menu-container-first {
+  display: flex;
+  gap: 94px;
+}
+
 .menu-container {
   margin-right: 30px;
 }
@@ -400,9 +405,17 @@
   justify-content: space-between;
 }
 
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 94px;
+}
+
 .sns-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 8px;
 }
 
 .copyright {
@@ -411,12 +424,11 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 89.52%;
-  text-align: center;
   color: #e8e8e8;
 }
 
 /* 태블릿 */
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 860px) {
   .main-img {
     background-image: url(../img/t-main.png);
   }
@@ -427,6 +439,13 @@
 
   .icon {
     display: none;
+  }
+
+  .section-heading-container {
+    display: flex;
+    align-items: center;
+    width: 860px;
+    justify-content: space-between;
   }
 
   .banner-sunglass {
@@ -450,4 +469,48 @@
 
 /* 모바일 */
 @media screen and (max-width: 600px) {
+  .main-img {
+    background-image: url(../img/m-main.png);
+  }
+
+  .section-heading-container {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+  }
+
+  .banner-sunglass {
+    background-image: url(../img/m-sunglass.png);
+  }
+
+  .banner-glass {
+    background-image: url(../img/m-glass.png);
+  }
+
+  .sub-banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-banner-section > a {
+    width: 343px;
+    height: 524px;
+  }
+
+  .collabo-title {
+    font-size: 26px;
+    line-height: 85.02%;
+    letter-spacing: 0.0776em;
+  }
+
+  .collabo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .style-text > p {
+    font-size: 16px;
+  }
 }
