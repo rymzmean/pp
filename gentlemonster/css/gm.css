@@ -27,8 +27,6 @@
   text-decoration: none;
 }
 
-
-
 .menu {
   font-family: "Inter";
   font-style: normal;
@@ -81,7 +79,6 @@
   line-height: 44px;
   color: #222222;
 }
-
 
 .more-btn {
   box-sizing: border-box;
@@ -197,7 +194,6 @@
 .banner-glass {
   background-image: url(../img/Rectangle\ 81.svg);
   background-position-x: 38%;
-
 }
 
 #collabo {
@@ -439,7 +435,6 @@
 
 /* 태블릿 */
 @media screen and (max-width: 1200px) {
-
   .hamburger-menu {
     display: block;
   }
@@ -461,25 +456,23 @@
   }
 
   .item-explain {
-      flex-shrink: 0;
-      width: calc((100% - 32px) / 3);
-    }
+    flex-shrink: 0;
+    width: calc((100% - 32px) / 3);
+  }
 
-    .item-explain img {
-      display: block;
-      width: 100%;
-    }
-  
-  
+  .item-explain img {
+    display: block;
+    width: 100%;
+  }
+
   .collabo-title {
     line-height: 70.52%;
     letter-spacing: 0.0876em;
   }
-  }
-
+}
 
 /* 모바일 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .main-img {
     background-image: url(../img/m-main.png);
   }
@@ -487,7 +480,6 @@
   .section-heading-container {
     display: flex;
     align-items: center;
-    width: 600px;
     justify-content: space-between;
   }
 
